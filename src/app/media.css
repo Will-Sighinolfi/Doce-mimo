@@ -1,0 +1,49 @@
+@media screen and (max-width: 450px) {
+    .logo-header {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .icon-header {
+        display: none;
+    }
+
+    .content-header {
+        justify-content:center
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .image-text h1 {
+        font-size: 1em;
+    }
+
+    .image-text p {
+        font-size: 0.9em;
+    }
+
+    .img-breakfast {
+        width: 100vw;
+    }
+
+    .img-products {
+        width: 100vw;
+    }
+
+    .foods {
+        flex-direction: column;
+    }
+
+    .inversion {
+        flex-direction: column-reverse;
+      }
+}
+
+/* @media screen and (max-width: 768px) {
+    .img-products {
+        width: calc(60% - 20px);
+    }
+} */
+
