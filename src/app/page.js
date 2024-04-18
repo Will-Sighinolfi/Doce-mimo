@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import Image from 'next/image';
 import Logo from '../img/logo.png';
-
 import BackgroundHome from '../img/background-home.jpg';
 import breakfast from '../img/backfast.png';
 import breads from '../img/bread.jpeg'
